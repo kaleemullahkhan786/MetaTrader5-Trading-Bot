@@ -1,0 +1,12 @@
+{
+    "bot_token": "7695594237:AAGLoqD_Ab4El1G0JLLL70SrlvMb4mnvF8M",
+    "bot_username": "Meta_TraderX_bot",
+    "default_risk_percent": 2.0,
+    "default_tp_multiplier": 2.0,
+    "log_file": "trading_bot.log",
+    "mt5_login": 5038068792,
+    "mt5_password": "Ow*sWxM8",
+    "mt5_server": "MetaQuotes-Demo",
+    "allowed_users": [],
+    "admin_user_id": null
+} 

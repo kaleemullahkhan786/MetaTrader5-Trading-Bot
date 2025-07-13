@@ -1,0 +1,12 @@
+{
+    "bot_token": "YOUR_BOT_TOKEN_HERE",
+    "bot_username": "YOUR_BOT_USERNAME",
+    "default_risk_percent": 2.0,
+    "default_tp_multiplier": 2.0,
+    "log_file": "trading_bot.log",
+    "mt5_login": 12345678,
+    "mt5_password": "YOUR_MT5_PASSWORD",
+    "mt5_server": "YOUR_MT5_SERVER",
+    "allowed_users": [],
+    "admin_user_id": null
+} 
