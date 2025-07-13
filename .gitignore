@@ -1,3 +1,9 @@
+# Bot Source Code (Excluded for Client Protection)
+main.py
+bot/
+mt5/
+config/
+
 # Sensitive Configuration Files
 config.json
 .env
