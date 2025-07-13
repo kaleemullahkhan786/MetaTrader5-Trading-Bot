@@ -117,7 +117,11 @@ notepad config.json
     "mt5_password": "YOUR_MT5_PASSWORD",
     "mt5_server": "YOUR_MT5_SERVER",
     "allowed_users": [],
-    "admin_user_id": null
+    "admin_user_id": null,
+    "alert_channel_id": "@your_alert_channel",
+    "alert_group_id": "@your_alert_group",
+    "enable_alerts": true,
+    "enable_notifications": true
 }
 ```
 
@@ -137,6 +141,17 @@ notepad config.json
    - Requires real money deposit
    - Higher risk - use with caution
    - Professional trading capabilities
+
+### 📢 **Alert Channel Setup** (Optional)
+1. **Create Telegram Channel/Group**:
+   - Create a new channel or group in Telegram
+   - Add your bot as admin with send message permissions
+   - Copy the channel/group username (e.g., @my_trading_alerts)
+
+2. **Configure Alerts**:
+   - Set `alert_channel_id` or `alert_group_id` in config.json
+   - Enable alerts with `enable_alerts: true`
+   - All trades will be automatically posted to your channel/group
 
 ---
 
@@ -165,7 +180,19 @@ notepad config.json
 
 ### 💰 **Trading Methods**
 
-#### **1. Standard Trading**
+#### **1. 🎯 Interactive Workflow** ⭐ **NEW & RECOMMENDED**
+```
+Symbol Input → Trade Type → SL Points → Risk % → TP Multiplier → Execute
+```
+- **Manual Symbol Input** - Type any trading symbol (EURUSD, XAUUSD, BTCUSD, etc.)
+- **Manual SL Points** - Custom stop loss distance in points
+- **Manual Risk %** - Custom risk percentage (1%, 2%, 3%, etc.)
+- **Manual TP Multiplier** - Custom take profit multiplier (1x, 2x, 3x SL)
+- **Quick Options** - Predefined buttons for fast selection
+- **Real-time Alerts** - Channel/group notifications for all trades
+- **Auto Lot Calculation** - Professional position sizing based on risk
+
+#### **2. Standard Trading**
 ```
 Symbol → BUY/SELL → Lot Size → Execute
 ```
@@ -173,7 +200,7 @@ Symbol → BUY/SELL → Lot Size → Execute
 - Optional SL/TP in pips
 - Direct trade execution
 
-#### **2. Risk-Based Trading** ⭐ **Recommended**
+#### **3. Risk-Based Trading**
 ```
 Symbol → Risk-Based → Risk Amount → SL Points → TP Amount → Execute
 ```
@@ -182,7 +209,7 @@ Symbol → Risk-Based → Risk Amount → SL Points → TP Amount → Execute
 - Professional position sizing
 - Perfect risk/reward ratios
 
-#### **3. Quick Trading**
+#### **4. Quick Trading**
 ```
 /quick_buy EURUSD 0.1
 /quick_sell GBPUSD 0.05
@@ -192,9 +219,17 @@ Symbol → Risk-Based → Risk Amount → SL Points → TP Amount → Execute
 - Immediate trade placement
 
 ### 📊 **Supported Symbols**
-- **Major Pairs**: EURUSD, GBPUSD, USDJPY, USDCHF
-- **Commodity Pairs**: AUDUSD, USDCAD, NZDUSD
-- **Cross Pairs**: EURGBP, EURJPY, GBPJPY
+- **💱 Major Forex**: EURUSD, GBPUSD, USDJPY, USDCHF, AUDUSD, USDCAD, NZDUSD
+- **💱 Minor Forex**: EURGBP, EURJPY, EURCHF, EURCAD, EURAUD, EURNZD, GBPJPY, GBPCHF, GBPCAD, GBPAUD, GBPNZD
+- **💱 Exotic Pairs**: USDNOK, USDSEK, USDDKK, USDTRY, USDZAR, USDBRL, USDINR, USDRUB, USDCNH
+- **🪙 Commodities**: XAUUSD, XAGUSD, XAUGBP, XAUJPY, XAUCHF, XAGGBP, XAGJPY, XAGCHF
+- **⛽ Energy**: USOIL, UKOIL, NATGAS, BRENT, WTI
+- **📈 Indices**: US30, US500, NAS100, GER30, UK100, FRA40, JPN225, HK50, CHN50
+- **₿ Crypto**: BTCUSD, ETHUSD, LTCUSD, XRPUSD, BCHUSD, ADAUSD, DOTUSD, LINKUSD, UNIUSD, SOLUSD, MATICUSD, AVAXUSD
+- **📊 Stocks**: AAPL, MSFT, GOOGL, AMZN, TSLA, META, NVDA, NFLX, AMD, INTC, ORCL, CRM, ADBE, PYPL, NKE
+- **🔥 Popular**: EURUSD, GBPUSD, USDJPY, XAUUSD, BTCUSD, USOIL, US500, AAPL, TSLA
+
+**Note**: Symbol availability depends on your MT5 broker. You can also manually type any symbol in the new interactive workflow.
 
 ---
 

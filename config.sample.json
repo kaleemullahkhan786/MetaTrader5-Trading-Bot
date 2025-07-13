@@ -8,5 +8,9 @@
     "mt5_password": "YOUR_MT5_PASSWORD",
     "mt5_server": "YOUR_MT5_SERVER",
     "allowed_users": [],
-    "admin_user_id": null
+    "admin_user_id": null,
+    "alert_channel_id": "@your_alert_channel",
+    "alert_group_id": "@your_alert_group",
+    "enable_alerts": true,
+    "enable_notifications": true
 } 
