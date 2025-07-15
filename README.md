@@ -8,7 +8,7 @@
 ![Windows](https://img.shields.io/badge/Windows-Only-red.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-**Professional Telegram Bot for Real MetaTrader 5 Trading with Advanced Risk Management**
+**Professional Telegram Bot for MetaTrader 5 Trading with Advanced Risk Management**
 
 [🚀 Features](#-features) • [💻 Installation](#-installation) • [⚙️ Setup](#️-setup) • [📱 Usage](#-usage) • [🔒 Security](#-security)
 
