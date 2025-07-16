@@ -16,6 +16,10 @@
 
 ---
 
+## 🎥 Demo Video
+
+[Click here to watch the demo video on Streamable](https://streamable.com/wx70xq)
+
 ## 🎯 **Project Overview**
 
 This is a **professional-grade Telegram bot** that provides **real MetaTrader 5 trading capabilities** with advanced risk management features. The bot allows users to execute real trades, manage positions, and implement sophisticated risk management strategies directly through Telegram.
