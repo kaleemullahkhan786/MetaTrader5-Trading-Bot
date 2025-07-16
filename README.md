@@ -16,9 +16,9 @@
 
 ---
 
-## 🎥 Demo Video
+## 🎬 Demo Video
 
-[Click here to watch the demo video on Streamable](https://streamable.com/wx70xq)
+[![Watch Demo](https://raw.githubusercontent.com/kaleemullahkhan786/MetaTrader5-Trading-Bot/main/Thumnail.jpg)](https://streamable.com/wx70xq)
 
 ## 🎯 **Project Overview**
 
